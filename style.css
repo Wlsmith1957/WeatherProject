@@ -1,0 +1,67 @@
+h1,
+h2,
+h3,
+h4 {
+  text-align: center;
+  font-family: cursive;
+  color: black;
+  font-size: 30px;
+}
+
+.col {
+  flex: 0 0 0%;
+  width: 50%;
+  max-width: 50%;
+  padding-right: calc(var(--bs-gutter-x) * 1.5);
+  padding-left: calc(var(--bs-gutter-x) * 1.5);
+  margin-top: (var(--bs-gutter-y) * 1.5);
+}
+card {
+  align-items: center;
+  background: rgb(173, 206, 206);
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  min-width: 10;
+  height: var(--bs-card-height);
+  color: black;
+  border: var(--bs-card-border-width) solid var(--bs-card-border-color);
+  border-radius: var(--bs-card-border-radius);
+}
+h4 {
+  font-weight: 400;
+  font-size: 25px;
+}
+body {
+  background: rgb(173, 206, 206);
+}
+button {
+  font-family: cursive;
+  background-color: rgb(173, 206, 206);
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.currentPlaceButton {
+  font-family: cursive;
+  background-color: rgb(44, 104, 104);
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+  color: black;
+}
+.container {
+  text-align: center;
+  width: 50%;
+  background: rgb(173, 206, 206);
+}
+
+.navbar bg-light {
+  text-align: center;
+  background: rgb(173, 206, 206);
+}
+.row {
+  text-align: center;
+}
+div {
+  display: block;
+  margin: 0 auto;
+  background: rgb(173, 206, 206);
+}
